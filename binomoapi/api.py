@@ -1,6 +1,6 @@
 """Module for Binomo API."""
 
-class IQOptionAPI(object):  
+class BinomoAPI(object):  
     """Class for communication with Binomo API."""
     def __init__(self, host, set_ssid, device_id, proxies=None):
         """
